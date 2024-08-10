@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "352723860295",
+    "project_id": "ojt-bada-assignment14",
+    "storage_bucket": "ojt-bada-assignment14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352723860295:android:a4860b856910afea0b2a62",
+        "android_client_info": {
+          "package_name": "com.example.ojtbadaassignment14"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCixEPD8bgYgSHKB8lh9fAEt1Nsi7kWyng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

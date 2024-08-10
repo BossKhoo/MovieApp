@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:key="filter_category"
+        android:title="FILTER">
+        <ListPreference
+            android:key="category_preference"
+            android:title="Category"
+            android:summary="Popular Movies"
+            android:entries="@array/category_entries"
+            android:entryValues="@array/category_entry_values"
+            android:defaultValue="popular_movies"
+            app:useSimpleSummaryProvider="true"/>
+
+        <com.example.ojtbadaassignment14.dialog.SeekBarDialogPreference
+            android:key="rate_preference"
+            android:title="Movie with rate from"
+            android:defaultValue="5"
+            android:summary="5" />
+
+        <EditTextPreference
+            android:key="release_year_preference"
+            android:title="From Release year"
+            android:summary="2015"
+            android:inputType="number|numberDecimal"
+            android:defaultValue="2015"
+            app:singleLine="true"
+            app:maxLines="1"
+            app:useSimpleSummaryProvider="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="sort_category"
+        android:title="SORT">
+        <ListPreference
+            android:key="sort_by_preference"
+            android:title="Sort By"
+            android:summary="Release Date"
+            android:entries="@array/sort_by_entries"
+            android:entryValues="@array/sort_by_entry_values"
+            android:defaultValue="release_date"
+            app:useSimpleSummaryProvider="true"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>
